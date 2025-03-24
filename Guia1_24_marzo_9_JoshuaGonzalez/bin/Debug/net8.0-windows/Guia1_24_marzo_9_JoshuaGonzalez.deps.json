@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Guia1_24_marzo_9_JoshuaGonzalez/1.0.0": {
+        "runtime": {
+          "Guia1_24_marzo_9_JoshuaGonzalez.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Guia1_24_marzo_9_JoshuaGonzalez/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
