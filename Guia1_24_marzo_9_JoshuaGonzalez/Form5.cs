@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Guia1_24_marzo_9_JoshuaGonzalez
 {
-    public partial class Form3 : Form
+    public partial class Form5 : Form
     {
-        public Form3()
+        public Form5()
         {
             InitializeComponent();
         }
@@ -21,20 +21,15 @@ namespace Guia1_24_marzo_9_JoshuaGonzalez
         {
             int num1 = int.Parse(textBox1.Text);
             int cont2 = 1;
-            while (cont2 < 11)
+            do
             {
                 int multi;
                 multi = num1 * cont2;
                 dataGridView1.Rows.Add(num1, cont2, multi);
                 cont2++;
-            }
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form5 form = new  Form5();
-            form.ShowDialog();  
-
+            } 
+            while (cont2 < 11);
         }
     }
 }

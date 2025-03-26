@@ -1,6 +1,6 @@
 ﻿namespace Guia1_24_marzo_9_JoshuaGonzalez
 {
-    partial class Form2
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -41,19 +41,19 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Numero, Multi, Total });
-            dataGridView1.Location = new Point(143, 136);
+            dataGridView1.Location = new Point(177, 120);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(447, 211);
             dataGridView1.TabIndex = 4;
             // 
             // Numero
             // 
-            Numero.HeaderText = "vector1";
+            Numero.HeaderText = "matriz1";
             Numero.Name = "Numero";
             // 
             // Multi
             // 
-            Multi.HeaderText = "vector2";
+            Multi.HeaderText = "matriz2";
             Multi.Name = "Multi";
             // 
             // Total
@@ -63,25 +63,25 @@
             // 
             // button1
             // 
-            button1.Location = new Point(293, 71);
+            button1.Location = new Point(333, 61);
             button1.Name = "button1";
-            button1.Size = new Size(112, 35);
+            button1.Size = new Size(121, 38);
             button1.TabIndex = 5;
-            button1.Text = "sumar ";
+            button1.Text = "Multiplicar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(513, 75);
+            button2.Location = new Point(570, 61);
             button2.Name = "button2";
-            button2.Size = new Size(150, 31);
+            button2.Size = new Size(130, 29);
             button2.TabIndex = 6;
-            button2.Text = "ejercicio de matrices";
+            button2.Text = "ejercicio while";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // Form2
+            // Form4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -89,8 +89,8 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
-            Name = "Form2";
-            Text = "Form2";
+            Name = "Form4";
+            Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
@@ -98,10 +98,10 @@
         #endregion
 
         private DataGridView dataGridView1;
+        private Button button1;
         private DataGridViewTextBoxColumn Numero;
         private DataGridViewTextBoxColumn Multi;
         private DataGridViewTextBoxColumn Total;
-        private Button button1;
         private Button button2;
     }
 }

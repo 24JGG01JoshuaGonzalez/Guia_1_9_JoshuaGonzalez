@@ -35,6 +35,7 @@
             Numero = new DataGridViewTextBoxColumn();
             Multi = new DataGridViewTextBoxColumn();
             Total = new DataGridViewTextBoxColumn();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -88,11 +89,22 @@
             Total.HeaderText = "total";
             Total.Name = "Total";
             // 
+            // button2
+            // 
+            button2.Location = new Point(604, 104);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 4;
+            button2.Text = "ejercicio 2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(textBox1);
@@ -113,5 +125,6 @@
         private DataGridViewTextBoxColumn Numero;
         private DataGridViewTextBoxColumn Multi;
         private DataGridViewTextBoxColumn Total;
+        private Button button2;
     }
 }
